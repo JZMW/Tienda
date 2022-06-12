@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html lang="es">
     <head>
         <title>Tienda en Línea</title>
@@ -8,19 +10,19 @@
         <link href="css/estilos.css" rel="stylesheet" type="text/css"/>   
     </head>
     <body>
-        <header id="encabezado"> <!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
-            <h1>TechShop</h1>
-        </header>
-        <nav id="menu">
-            <a href="Ejemplo9.html">Back</a>|
-            <a href="index.html">Home</a>|
-            <a href="Ejemplo2.html">Next</a><br>
-        </nav>
-        <aside id="barralaternal"> <!--Etiqueta para indicar que es una barra lateral al final, puede ser a la izquierda o a la derecha, y pueden ser varias-->  
-            <h2>Productos mas vendidos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit fames gravida suspendisse phasellus, luctus dapibus cum a hendrerit praesent dis dignissim ullamcorper lacus dictumst, nec habitasse tellus interdum facilisi facilisis litora torquent iaculis cras. Interdum mattis vulputate mauris nibh aenean, nam quis iaculis ultricies, torquent sed imperdiet dis. Leo quisque porttitor tellus velit interdum at, et pharetra id porta morbi ullamcorper, cras praesent commodo enim erat, pulvinar mauris vel primis fermentum.</p>
-        </aside>
-
+        <header class="header"> <!-- Etiqueta para ofrecerle al browser info de que es un encabezado -->
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">TechShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Ejemplo9.html">&LeftTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="Ejemplo2.html">&RightTriangleBar;</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="audios.html">Audios</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="iframes.html">Iframes</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link nav-link" href="formulario.html">Formulario</a></li>
+                </ul>
+            </nav>
+        </header>    
         <section id="contenido">
             <h2>Articulos principales</h2>
             <article>
@@ -71,8 +73,8 @@
                     <td>2</td>
                     <td>etiam natoque netus fusce feugiat primis</td>
                 </tr>
-                  </tr>
-            </thead>
+                </tr>
+                </thead>
             <tbody>
                 <tr>
                     <td>3</td>
@@ -82,8 +84,8 @@
                     <td>4</td>
                     <td>etiam natoque netus fusce feugiat primis</td>
                 </tr>
-                  </tr>
-            </thead>
+                </tr>
+                </thead>
             <tbody>
                 <tr>
                     <td>5</td>
